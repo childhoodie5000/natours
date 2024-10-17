@@ -1,0 +1,13 @@
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+.col-1-of-2{
+    width:calc((100% - 8rem)/2);
+    margin-right: 8rem;
+    float: left;
+}
+.col-1-of-2:last-child{
+    margin-right: 0;
+}
